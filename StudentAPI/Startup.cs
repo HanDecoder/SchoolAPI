@@ -26,7 +26,7 @@ namespace StudentAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataContext context)
         {
             if (env.IsDevelopment())
             {
@@ -47,7 +47,7 @@ namespace StudentAPI
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "Student API");
             });
-            SeedIfNeeded.CheckAndFill(app);
+            SeedIfNeeded.CheckAndFill(context);
         }
     }
 }

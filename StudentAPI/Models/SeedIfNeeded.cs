@@ -8,9 +8,8 @@ namespace StudentAPI.Models
 {
     public class SeedIfNeeded
     {
-        public static void CheckAndFill(IApplicationBuilder app)
+        public static void CheckAndFill(DataContext context)
         {
-            DataContext context = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<DataContext>();
             if (context.Database.GetPendingMigrations().Any())
                 context.Database.Migrate();
             if(!context.Students.Any())
