@@ -18,7 +18,7 @@ namespace StudentAPI
         {
             services.AddControllersWithViews();
             services.AddDbContext<DataContext>(options => { options.UseSqlServer(Configuration["ConnectionStrings:StudentConnection"]); });
-            services.AddCors();
+
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "Student API", Version = "v1" });
@@ -32,9 +32,8 @@ namespace StudentAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseRouting();
-
+            app.UseCors(opts => opts.AllowAnyOrigin());
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();

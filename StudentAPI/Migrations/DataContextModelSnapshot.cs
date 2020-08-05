@@ -25,6 +25,12 @@ namespace StudentAPI.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("BirthDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BloodGroup")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("City")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -41,6 +47,18 @@ namespace StudentAPI.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("Roll")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Section")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("SscGpa")
+                        .HasColumnType("float");
+
+                    b.Property<long>("StudentClass")
+                        .HasColumnType("bigint");
 
                     b.HasKey("StudentID");
 

@@ -15,12 +15,14 @@ namespace StudentAPI.Models
             if(!context.Students.Any())
             {
                 context.Students.AddRange(
-                    new Student { Name = "A. Nafi", Father = "Hasan", Mother = "Unknown", City = "Naogaon" },
-                    new Student { Name = "Usha A. Khan", Father = "Oli", Mother = "Unknown", City = "Naogaon" },
-                    new Student { Name = "Sirat", Father = "Rafiq", Mother = "Ruma", City = "Naogaon" },
-                    new Student { Name = "Unknown", Father = "Unknown", Mother = "Unknown", City = "Naogaon" },
-                    new Student { Name = "Unknown", Father = "Unknown", Mother = "Unknown", City = "Naogaon" },
-                    new Student { Name = "Unknown", Father = "Unknown", Mother = "Unknown", City = "Naogaon" });
+                    new Student { Name = "A. Nafi", Roll = 1, StudentClass = 10, Section = "D", SscGpa = 5.00, BloodGroup = "B+", Father = "Hasan", Mother = "Unknown", BirthDate="Unknown", City = "Bogra" },
+                    new Student { Name = "Usha A. Khan", Roll = 2, StudentClass = 10, BloodGroup = "A+", SscGpa = 5.00, Section = "D", Father = "Oli", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sirat", Roll = 3, StudentClass = 10, BloodGroup = "B+", SscGpa = 5.00, Section = "D", Father = "Rafiqul Islam", Mother = "Ruma Parvin", BirthDate = "25 Oct 2005", City = "Naogaon" },
+                    new Student { Name = "Farhan Sadique", Roll = 1, StudentClass = 10, BloodGroup = "B+", SscGpa = 5.00, Section = "C", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "A. Faisal", Roll = 5, StudentClass = 10, BloodGroup = "O+", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "24 Sept 2005", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 9, StudentClass = 10, BloodGroup = "AB+", SscGpa = 5.00, Section = "C", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 34, StudentClass = 9, BloodGroup = "B+", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 20, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" });
             }
             context.SaveChanges();
         }
