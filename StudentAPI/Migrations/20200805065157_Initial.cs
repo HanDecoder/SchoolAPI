@@ -15,6 +15,12 @@ namespace StudentAPI.Migrations
                     Name = table.Column<string>(nullable: false),
                     Father = table.Column<string>(nullable: true),
                     Mother = table.Column<string>(nullable: true),
+                    StudentClass = table.Column<long>(nullable: false),
+                    BloodGroup = table.Column<string>(nullable: true),
+                    SscGpa = table.Column<double>(nullable: false),
+                    BirthDate = table.Column<string>(nullable: true),
+                    Section = table.Column<string>(nullable: true),
+                    Roll = table.Column<long>(nullable: false),
                     City = table.Column<string>(nullable: false),
                     Country = table.Column<string>(nullable: true)
                 },
