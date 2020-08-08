@@ -22,7 +22,37 @@ namespace StudentAPI.Models
                     new Student { Name = "A. Faisal", Roll = 5, StudentClass = 10, BloodGroup = "O+", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "24 Sept 2005", City = "Naogaon" },
                     new Student { Name = "Sadman S.", Roll = 9, StudentClass = 10, BloodGroup = "AB+", SscGpa = 5.00, Section = "C", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
                     new Student { Name = "Sadman S.", Roll = 34, StudentClass = 9, BloodGroup = "B+", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
-                    new Student { Name = "Sadman S.", Roll = 20, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" });
+                    new Student { Name = "Sadman S.", Roll = 21, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 22, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 23, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 24, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 25, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 26, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 27, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 28, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 29, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 30, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 31, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 32, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 33, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 34, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 35, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 36, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 37, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 38, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 39, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 40, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 41, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 42, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 43, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 44, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 45, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 46, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 47, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 48, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 49, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" },
+                    new Student { Name = "Sadman S.", Roll = 50, StudentClass = 10, BloodGroup = "O-", SscGpa = 5.00, Section = "D", Father = "Unknown", Mother = "Unknown", BirthDate = "Unknown", City = "Naogaon" }
+                    );
             }
             context.SaveChanges();
         }
